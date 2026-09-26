@@ -1,0 +1,95 @@
+# Plans, briefs and concept notes for agents working on this repo. Never published.
+.documents/
+
+# Credentials never live in a repo; the universal .env is at ~/code/.env.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+api_keys.json
+service_account*.json
+client_secret*.json
+
+# Editors and operating systems.
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor tooling that records sessions.
+.specstory/
+
+# Logs and scratch.
+*.log
+logs/
+tmp/
+
+# Python bytecode and native extensions.
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Packaging and build output.
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments.
+.venv/
+venv/
+env/
+ENV/
+.python-env/
+
+# Tests, coverage and type checkers.
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+.cache/
+nosetests.xml
+*.cover
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Notebooks.
+.ipynb_checkpoints/
+
+# Documentation builds.
+docs/_build/
+site/
